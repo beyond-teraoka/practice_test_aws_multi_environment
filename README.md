@@ -3,7 +3,7 @@
 ## 概要
 - 複数の環境が存在するインフラを構築するための演習課題です
 - 構成図通りの構成をAWSで構築してもらいます
-- 課題は3つのフェーズがあり、1フェーズごとに正しく構築出来ているかの確認を行います
+- 課題は4つのフェーズがあり、1フェーズごとに正しく構築出来ているかの確認を行います
 
 ## 注意事項
 - マネジメントコンソールへのログイン情報は厳重に取り扱ってください
@@ -64,7 +64,7 @@
     - CIDRはRFC1918で規定されているプライベートIPアドレス範囲から任意で割り当てる
 - Internet Gateway
     - igw-dev
-- Internet Gateway
+- NAT Gateway
     - natgw-dev
         - subnet-practice-dev-dmz-1aに起動
 - Security Group
@@ -143,7 +143,7 @@
     - CIDRはRFC1918で規定されているプライベートIPアドレス範囲から任意で割り当てる
 - Internet Gateway
     - igw-prod
-- Internet Gateway
+- NAT Gateway
     - natgw-prod
         - subnet-practice-prod-dmz-1aに起動
 - Security Group
