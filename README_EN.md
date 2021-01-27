@@ -215,3 +215,6 @@
 ### 3. How to confirm this problem
 - Post an article with a picture from wordpress management console
 - Reload the browser in several times
+
+### 4. Checklist
+- The problem has been resolved
